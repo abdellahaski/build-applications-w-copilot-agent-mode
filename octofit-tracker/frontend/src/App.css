@@ -1,0 +1,142 @@
+/* Custom styles for Octofit Tracker */
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff;
+}
+
+/* Navigation Menu */
+.navbar {
+  background-color: #2c3e50 !important;
+  border-bottom: 3px solid #3498db;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #ecf0f1 !important;
+}
+
+.navbar-nav .nav-link {
+  color: #bdc3c7 !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #3498db !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.display-4 {
+  color: #34495e;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Tables */
+.table {
+  background-color: #ffffff;
+  color: #2c3e50;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.table-dark th {
+  background-color: #34495e !important;
+  border-color: #2c3e50 !important;
+  color: #ecf0f1 !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(52, 152, 219, 0.1);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(52, 152, 219, 0.2);
+  color: #2c3e50;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #3498db;
+  border-color: #2980b9;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+  border-color: #21618c;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(52, 152, 219, 0.3);
+}
+
+/* Links */
+a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+/* Cards */
+.card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.card-title {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #7f8c8d;
+}
+
+/* Alerts */
+.alert-danger {
+  background-color: #e74c3c;
+  border-color: #c0392b;
+  color: #ffffff;
+}
+
+/* Spinners */
+.spinner-border {
+  color: #3498db;
+}
+
+/* Container */
+.container {
+  background-color: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-top: 2rem;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+/* Logo styling */
+.navbar-brand img {
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+/* Additional custom styles can be added here */
